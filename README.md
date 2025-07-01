@@ -11,28 +11,6 @@ This project performs an end-to-end exploratory data analysis (EDA) on Airbnb li
 - Identify top-performing hosts and high-demand areas
 - Practice writing efficient SQL queries for real-world data
 
----
-
-📁 Project Structure:
-
-airbnb-sql-analysis/
-│
-├── data/
-│ ├── airbnb_raw.csv # Raw Airbnb dataset
-│ ├── airbnb_cleaned.csv # Cleaned dataset
-│ └── data_dictionary.md # Description of dataset columns
-│
-├── sql/
-│ ├── create_tables.sql # SQL table schema
-│ ├── insert_data.sql # Insert records into tables
-│ └── analysis_queries.sql # Core SQL queries for analysis
-│
-├── notebooks/
-│ └── airbnb_sql_queries.ipynb # Jupyter Notebook to run SQL queries and visualize insights
-│
-├── requirements.txt # Python packages used (for optional Jupyter analysis)
-├── LICENSE # MIT License
-└── README.md # Project overview
 
 
 ---
@@ -81,6 +59,12 @@ Option 1: SQL-Only (Manual Setup)
 2. Launch Jupyter and open airbnb_sql_queries.ipynb
 
 3. Run the notebook to perform analysis and view visualizations
+---
+
+📄 License
+This project is licensed under the MIT License.
+
+
 
 
 
